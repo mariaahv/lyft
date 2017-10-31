@@ -1,3 +1,156 @@
 /*
  * Estilos de tu proyecto
  */
+
+ *{
+   margin: 0;
+   padding: 0;
+ }
+header{
+  background: #4C1778;
+}
+
+figure{
+  display: inline-block;
+}
+ul{
+  display: inline-block;
+  float: right;
+}
+
+ul li{
+  display: inline-block;
+padding: 15px;
+color: white;
+}
+nav{
+  overflow: auto;
+}
+
+ .logo img{
+width: 70px;
+ }
+
+.menu {
+padding: 15px 50px;
+}
+
+.box{
+  color: white;
+  /*outline: 1px solid green;*/
+  display: inline-block;
+  border:2px solid white ;
+  padding: 10px 15px;
+  border-radius: 13px;
+}
+
+.text-uppercase{
+ text-transform: uppercase;
+}
+.text1{
+  color:#2C1070;
+  text-transform: uppercase;
+}
+
+.text2{
+  color:#2C1070;
+  text-transform: uppercase;
+}
+
+input[type=text] {
+    outline: 2px solid red;
+    border:none;
+    border-bottom:2px solid black;
+    background-color: white;
+    background-position: 10px 10px;
+    position: absolute;
+    height: 10%;
+    
+
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+.link1{
+  outline: 2px solid green;
+  font-size: 20px;
+}
+
+button{
+
+  width: 150px;
+  height: 50px;
+  background-color:#BA1BA9;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 40px 0;
+}
+
+.part1{
+  position: relative;
+ background-color:white;
+ width: 40%;
+ margin-left: 60%;
+
+}
+
+
+.all{
+  background-image:url("../assets/images/hero.gif");
+  background-repeat: no-repeat;
+   background-image: gradient(...);
+   background-size: 100% 150%;
+}
+
+.phone{
+  width: 35%;
+  height: 60%;
+  margin-left: 60%;
+}
+
+.part3{
+  position: relative;
+}
+.learn{
+  position: absolute;
+  display: inline-block;
+  outline: 2px solid red;
+  width: 40%;
+
+}
+
+.women{
+  position: absolute;
+  display: inline-block;
+  margin-left: 40%;
+
+}
+#p1{
+  color: #EA20D5;
+  margin: 30px;
+  margin-top: 196px;
+}
+
+#p2{
+  margin: 30px;
+}
+#p3{
+  margin: 30px;
+  margin-bottom: 196px;
+}
+.part4{
+  position: relative;
+  width: 100%;
+  height: 70%;
+}
+
+.video{
+  position: absolute;
+  margin: 34% 0px ;
+  width: 70%;
+
+
+}
