@@ -6,8 +6,11 @@
    margin: 0;
    padding: 0;
  }
+ body{
+   font-family: 'Montserrat', sans-serif;
+ }
 header{
-  background: #4C1778;
+
 }
 
 figure{
@@ -28,7 +31,7 @@ nav{
 }
 
  .logo img{
-width: 70px;
+  width: 70px;
  }
 
 .menu {
@@ -65,7 +68,7 @@ input[type=text] {
     background-position: 10px 10px;
     position: absolute;
     height: 10%;
-    
+
 
 }
 
@@ -98,59 +101,230 @@ button{
 }
 
 
-.all{
+.cabecera{
+  position: relative;
   background-image:url("../assets/images/hero.gif");
   background-repeat: no-repeat;
    background-image: gradient(...);
-   background-size: 100% 150%;
+   background-size: 100% 100%;
 }
 
 .phone{
-  width: 35%;
-  height: 60%;
+
+
+  outline: 2px solid blue;
+  width:35%;
+  height: 50%;
   margin-left: 60%;
+}
+.text-phone{
+  position: absolute;
+  outline: 2px solid skyblue;
+  display: inline-block;
+  padding: 10%;
+  text-align: center;
+  color:white;
+  width: 40%;
+  height: 100%;
+}
+.ride{
+  font-size: 30px;
+  padding: 10px;
+}
+.request{
+  padding: 10px;
+  padding-bottom: 20px;
+  }
+
+  .serius{
+      font-size: 30px;
+  }
+.from{
+  padding:10px;
+}
+.part2{
+  position: relative;
+/*outline: 3px solid green;*/
+background:  linear-gradient(#76278F, #2B1E66);
 }
 
 .part3{
-  position: relative;
-}
-.learn{
-  position: absolute;
+  /*outline: 2px solid blue;*/
+
+  width: 100%;
+ height: 80%;
   display: inline-block;
-  outline: 2px solid red;
-  width: 40%;
+  position:relative;
+
+}
+.learnn{
+  position:relative;
+ display: inline-block;
+  /*outline: 2px solid red;*/
+  width: 30%;
 
 }
 
-.women{
-  position: absolute;
-  display: inline-block;
-  margin-left: 40%;
-
+.video  {
+/*outline: 2px solid green;*/
+position: absolute;
+display: inline-block;
+/* se posiciona ala derecha*/
+top: -460px;
+margin: 34% 0;
+width: 70%;
 }
+
+
+
 #p1{
   color: #EA20D5;
   margin: 30px;
-  margin-top: 196px;
+  margin-top: 180px;
 }
 
 #p2{
-  margin: 30px;
+  margin: 20px;
 }
 #p3{
   margin: 30px;
   margin-bottom: 196px;
 }
-.part4{
-  position: relative;
-  width: 100%;
-  height: 70%;
+
+.watch{
+  display: inline-block;
+  /*outline: 1px solid red;*/
+  margin-top: 25px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.june{
+ margin-left: 25px;
+ /*outline: 1px solid green;*/
+ text-transform: uppercase;
+ font-size: 30px;
+
+}
+.textoo{
+  margin: 25px;
+  /*outline: 1px solid red;*/
+  margin-bottom: 150px;
+  font-weight: bold;
 }
 
-.video{
+.part4{
+  position: relative;
+}
+
+.texto-june{
   position: absolute;
-  margin: 34% 0px ;
+  display: inline-block;
+  /*outline: 1px solid yellow;*/
+  width: 36.5%;
+  height: 100%;
+}
+
+
+.wacht02{
+
+  margin: 30px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.good{
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 30px;
+}
+.tv{
+  margin: 30px;
+  margin-bottom: 107px;
+}
+
+.good-thing{
+  /*outline: 2px solid fuchsia;*/
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+}
+
+.video3{
+
   width: 70%;
+  margin-left: 30%;
 
 
+
+}
+
+.part5{
+  /*outline: 2px solid blue;*/
+  position: relative;
+
+}
+
+.lista1{
+  color: white;
+}
+
+.lista1 li{
+  display: block;
+  /*outline: 2px solid blue;*/
+  margin: 10px;
+  margin-right: 600px;
+}
+.lista2{
+  color: white;
+}
+
+.lista2 li{
+  display:  block;
+  /*outline: 2px solid green;*/
+  margin: 10px;
+  margin-right: 100px;
+}
+.lista3{
+  color: white;
+
+}
+.lista3 li{
+    display:block;
+  /*outline: 2px solid skyblue;*/
+    margin: 10px;
+    margin-right: 120px;
+}
+.fooot{
+
+  display: inline-block;
+  position: absolute;
+  background-color:black;
+  width: 100%;
+
+}
+
+.pictures{
+  position: absolute;
+}
+.pictures img{
+
+  /*outline: 3px solid white;*/
+  vertical-align: top;
+  display: block;
+  width: 10%;
+  border-radius: 8px;
+  margin:30px 1000px;
+}
+#list1{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#list2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#list3{
+  text-transform: uppercase;
+  font-weight: bold;
 }
